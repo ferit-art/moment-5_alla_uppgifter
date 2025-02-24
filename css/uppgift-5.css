@@ -1,0 +1,18 @@
+ul#thumbs{
+    padding: 0;
+ }
+ ul#thumbs li{
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid grey;
+ }
+  
+ ul#thumbs li img{
+    display:block; /** tar bort utrymmet i botten på bilden */
+ }
+  
+ #largeImg{
+    border: 2px solid grey;
+ }
+ 
+ 
