@@ -8,11 +8,16 @@ ul#thumbs{
  }
   
  ul#thumbs li img{
-    display:block; /** tar bort utrymmet i botten på bilden */
+    display:block;
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
  }
   
  #largeImg{
     border: 10px solid grey;
- }
- 
- 
+    width: 500px;
+    height: 500px;
+    object-fit: cover; 
+}
+
